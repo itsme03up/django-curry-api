@@ -1,0 +1,57 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+pip-wheel-metadata/
+.installed.cfg
+
+# ---- Django ----
+db.sqlite3
+/media/
+staticfiles/
+*.log
+
+# ---- VSCode ----
+.vscode/
+.idea/
+
+# ---- macOS ----
+.DS_Store
+
+# ---- Migrations cache ----
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# ---- pytest / coverage ----
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ---- Docker / Compose ----
+*.pid
+*.log
+*.bak
+*.swp
+docker-compose.override.yml
+
+# ---- Terraform ----
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+.terraform.lock.hcl
